@@ -69,6 +69,7 @@ h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 5rem;
+    color: rgb(var(--color-white));
 }
 
 /* HIGH-TITLE */
@@ -77,6 +78,7 @@ h2 {
     font-family: var(--font-family);
     font-weight: 900;
     font-size: 3rem;
+    color: rgb(var(--color-white));
 }
 
 /* LOW-TITLE */
