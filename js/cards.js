@@ -1,6 +1,6 @@
 var search, links, copy, avatarframe, background, miniprofile, specialprofile, badge, delbadge;
 
-fetch('../data/data.json')
+fetch('data/data.json')
     .then(response => response.json())
     .then(data => {
         search = data.search;
