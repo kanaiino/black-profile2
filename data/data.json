@@ -1,0 +1,367 @@
+{
+    "search": [
+        {
+            "title": "Основное",
+            "link": "#"
+        },
+        {
+            "title": "Рамка",
+            "link": "#"
+        },
+        {
+            "title": "Фоны профиля",
+            "link": "#"
+        },
+        {
+            "title": "Фоны мини-профиля",
+            "link": "#"
+        },
+        {
+            "title": "Особый профиль",
+            "link": "#"
+        },
+        {
+            "title": "Значки",
+            "link": "#"
+        },
+        {
+            "title": "Другое",
+            "link": "#"
+        }
+    ],
+    "links": [
+        {
+            "title": "YouTube",
+            "link": "https://www.youtube.com/@kanaiino"
+        },
+        {
+            "title": "Steam",
+            "link": "https://steamcommunity.com/id/kanaiino"
+        },
+        {
+            "title": "Steam Руководство",
+            "link": "https://steamcommunity.com/sharedfiles/filedetails/?id=3341624679"
+        },
+        {
+            "title": "Discord (вопросы?)",
+            "link": "https://discord.gg/5CrphfYBXD"
+        },
+        {
+            "title": "Pastebin (символы)",
+            "link": "https://pastebin.com/u/kanaiino"
+        }
+    ],
+    "copy": [
+        {
+            "title": "Невидимый ник",
+            "description": "",
+            "text": "󠀡󠀡",
+            "link": "https://pastebin.com/Fxrm9upX"
+        },
+        {
+            "title": "Невидимый ник",
+            "description": "",
+            "text": " ๋",
+            "link": "https://pastebin.com/LDRPsipi"
+        },
+        {
+            "title": "Невидимый символ",
+            "description": "",
+            "text": "⁣",
+            "link": "https://pastebin.com/uLeXE6gn"
+        },
+        {
+            "title": "Бесконечная иллюстрация *",
+            "description": "Иллюстрации -> Добавить иллюстрацию -> Вставляем в консоль -> Сохранить -> Ставим витрину иллюстраций",
+            "text": "document.getElementsByName(`image_width`)[0].value = 9999; document.getElementsByName(`image_height`)[0].value = 1;",
+            "link": "https://pastebin.com/5xA1UjdY"
+        },
+        {
+            "title": "Удаление значка *",
+            "description": "Значок напоказ -> Вставляем в консоль -> Enter -> Сохранить",
+            "text": "var access_token = $J(`[data-loyaltystore]`).data(`loyaltystore`).webapi_token; SetLovelyBadge(access_token); function SetLovelyBadge(access_token) {$J.post( 'https://api.steampowered.com/IPlayerService/SetFavoriteBadge/v1', {access_token: access_token,badgeid: 0}); }",
+            "link": "https://pastebin.com/jEEyr55i"
+        },
+        {
+            "title": "Иллюстрация-скриншот *",
+            "description": "Иллюстрации -> Добавить иллюстрацию -> Вставляем в консоль -> Сохранить -> Ставим витрину скришотов",
+            "text": "$J('#image_width').val('1000');$J('#image_height').val('1');$J('[name=`file_type`]').val(`5`);",
+            "link": "https://pastebin.com/8xsSRG8x"
+        },
+        {
+            "title": "Иллюстрация-скриншот *",
+            "description": "Скопируйте текст в пустое окно \"Имя профиля\" и после напишите ваш ник",
+            "text": "󠀡󠀡⁧⁧",
+            "link": "https://pastebin.com/nmArntGY"
+        }
+    ],
+    "avatarframe": [
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1000470/9dc57a6d972e6fa7894fe8d21326a0bc62325213.png",
+            "title": "INK ROUND RUN",
+            "link": "https://store.steampowered.com/points/shop/app/1000470/reward/351430"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1000470/dd85d771c87de0ade5c3f31fe80b789af32a6ddd.png",
+            "title": "DRIPPING INK",
+            "link": "https://store.steampowered.com/points/shop/app/1000470/reward/342933"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/2308870/09942fe0b52e8abdf54a2977e5e59543e4d11e5e.jpg",
+            "title": "THE DARK CRYSTALS",
+            "link": "https://store.steampowered.com/points/shop/app/2308870/reward/307901"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/251110/6e7e7168dc57947b87333038e60b397af824b0bf.png",
+            "title": "OTHER SIDE",
+            "link": "https://store.steampowered.com/points/shop/app/251110/reward/124609"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1299690/9a66375101155e55e2ee564bc0e57d4c743af7c8.png",
+            "title": "SKETCHED MEMORY",
+            "link": "https://store.steampowered.com/points/shop/app/1299690/reward/315690"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/423910/2b070cb7e34b57fb61609409dcc9c867d62c513a.png",
+            "title": "PIXELATED FRAME - BLACK",
+            "link": "https://store.steampowered.com/points/shop/app/423910/reward/201448"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/2206560/44715ce4fef8940263ec9e966a61cc83499a096f.png",
+            "title": "SLIM [BLACK & GRAY]",
+            "link": "https://store.steampowered.com/points/shop/app/2206560/reward/239583"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1174640/dd913a7403157c3a562c78bd97f54e95d4cc3cb9.png",
+            "title": "ARCADIA FALLEN PROFILE FRAME",
+            "link": "https://store.steampowered.com/points/shop/app/1174640/reward/163580"
+        }
+    ],
+    "background": [
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/603750/98444cbe7142185d0ef05b8281b2236418c7a682.jpg",
+            "title": "A DEEP BLACK",
+            "link": "https://store.steampowered.com/points/shop/app/603750/reward/56676"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/562260/6b71ae5b7c8a314d918e1610504eaf085571c2ce.jpg",
+            "title": "BLACK",
+            "link": "https://store.steampowered.com/points/shop/app/562260/reward/53923"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/562260/6b71ae5b7c8a314d918e1610504eaf085571c2ce.jpg",
+            "title": "BLACK",
+            "link": "https://steamcommunity.com/market/listings/753/562260-Black"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/515040/5bdf2584e8279daad2246bf35b7de0758e77810f.jpg",
+            "title": "DEPLORABLE",
+            "link": "https://steamcommunity.com/market/listings/753/515040-Deplorable"
+        },
+        {
+            "img": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/542340/adfa0576f5ba9f1a787e194fea76bfb05182e269.jpg",
+            "title": "SLINGSHOT",
+            "link": "https://steamcommunity.com/market/listings/753/542340-Slingshot"
+        }
+    ],
+    "miniprofile": [
+        {
+            "video": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/967250/e82309349dd3b8de0297ee3473cf3eaabbcebbcc.webm",
+            "title": "ZOMBIE HORDE",
+            "link": "https://store.steampowered.com/points/shop/app/967250/reward/152143"
+        },
+        {
+            "video": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1000470/8ff13008bda8e5eadfcb0e295b344422ddea6509.webm",
+            "title": "INC OCEAN",
+            "link": "https://store.steampowered.com/points/shop/app/1000470/reward/351431"
+        },
+        {
+            "video": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/251110/477ebce1a330a6e08a6b78110ff2d2a7fe88973f.webm",
+            "title": "WASTELAND",
+            "link": "https://store.steampowered.com/points/shop/app/251110/reward/124599"
+        },
+        {
+            "video": "https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1263950/d617ee5082bd8ae94169308f72bc21ada421f050.webm",
+            "title": "BLACK HOLE",
+            "link": "https://store.steampowered.com/points/shop/app/1263950/reward/78805"
+        }
+    ],
+    "specialprofile": [
+        {
+            "video": "video/specialprofile.mp4",
+            "title": "DRAGON AGE (SOLAS)",
+            "link": "https://store.steampowered.com/points/shop/app/1845910/reward/335173"
+        },
+        {
+            "video": "video/specialprofile.mp4",
+            "title": "DYING LIGHT 2 STAY HUMAN PROFILE",
+            "link": "https://store.steampowered.com/points/shop/app/534380/reward/198096"
+        }
+    ],
+    "badge": [
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795658902/72B39717996B9FA33BD84BB7274CC48455D2F3A2/",
+            "title": "VOI",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_545690&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795658899/FCB4C5BE10B2453C6874E84173A7AF476C2A4200/",
+            "title": "VOI",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_545690&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "2"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795658894/499E08A0096E4576AFD81E8B5F4BC4F17A1E8DC5/",
+            "title": "VOI",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_545690&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "3"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795658888/A5587DDCB13579CB1C75B99F4F26C30CFAF5ACCE/",
+            "title": "VOI",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_545690&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "4"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795658885/CCD14A4AEC304A98CBE5D86CAF965F9033B34CDD/",
+            "title": "VOI",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_545690&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "5"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795738065/26DF469E0095F15BE3E8D099478BC40E442C543F/",
+            "title": "Color Jumper",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_594810&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795676232/A4DEB53E67B3C83CAA5452C58A3581F94A4EFDF5/",
+            "title": "Yasai Ninja",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_372150&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795716558/A8068DAD30C95B57E08E36704B8B7DBD0D4DA6B8/",
+            "title": "IrisFall",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_907470&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795722212/B5B30A9EA5AC3A1E8A6B00AEFAE918A7075D8B63/",
+            "title": "Lost",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_1126290&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795753072/FB1D579F0704079853FED3870CD262127F39796E/",
+            "title": "Seek Girl Ⅲ",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_1191210&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795762791/4874B65EDDA4027C310C87A2525044562A0A2E15/",
+            "title": "Taboos: Cracks",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_1060670&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795740569/4A9B89DDF3C9B7D8B77EE6938BD108B204491D39/",
+            "title": "Cubway",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_511160&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "5"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795708826/DEC485CEC5E789EC7F768DDB041CE87D1184A3B0/",
+            "title": "Shadows of War",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_340220&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795708823/17338E9AA86CC085BC832F752BFB5C319AF96543/",
+            "title": "Shadows of War",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_340220&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "2"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795708809/9E1B11CCDC3BA0F91DF0EB67B6B323CADE42AF25/",
+            "title": "Shadows of War",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_340220&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "3"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795708804/9E7676F16A0BDC2E747942BADCB4A0B3749EE343/",
+            "title": "Shadows of War",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_340220&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "4"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795708796/2A94D85B9525A3207316ADD97319714B60EE7BC8/",
+            "title": "Shadows of War",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_340220&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "5"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795759615/10D2E51C49E29910AC1004701F6C36B5B4502731/",
+            "title": "Defence to death",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_603150&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795719324/E132BBE908C6FA5018CC9F08F12F44DBA83E5AA0/",
+            "title": "illumine",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_518650&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795769899/E8B3A4CE63571A7787FA7A01C3EE27BD992CA162/",
+            "title": "HTS a criminal",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_518130&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795745417/EC58FFEEEB7111E91CE2499BF2C001FBF4E41B8D/",
+            "title": "LIMBO",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_48000&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "2"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795745412/CDA2D609C4B2408286F5ED2E29DFBFF8279A15B6/",
+            "title": "LIMBO",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_48000&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "5"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795756703/F2D02E69CBEA5B2ED2DF509F4023F7224E32A992/",
+            "title": "Cold Space",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_595120&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "1"
+        },
+        {
+            "img": "https://images.steamusercontent.com/ugc/2467500224795756544/518965EC42DF7AA865428C72F0721063393E9784/",
+            "title": "Cold Space",
+            "link": "https://steamcommunity.com/market/search?category_753_Event%5B%5D=any&category_753_Game%5B%5D=tag_app_595120&category_753_cardborder%5B%5D=tag_cardborder_0&category_753_item_class%5B%5D=tag_item_class_2&appid=753",
+            "lvl": "2"
+        }
+    ],
+    "delbadge": [
+        {
+            "text": "var access_token = $J(`[data-loyaltystore]`).data(`loyaltystore`).webapi_token; SetLovelyBadge(access_token); function SetLovelyBadge(access_token) {$J.post( 'https://api.steampowered.com/IPlayerService/SetFavoriteBadge/v1', {access_token: access_token,badgeid: 0}); }"
+        },
+        {
+            "video": "video/delbadge.mp4"
+        }
+    ],
+    "owo": [
+        {
+            "video": "",
+            "title": "",
+            "link": ""
+        },
+        {
+            "video": "",
+            "title": "",
+            "link": ""
+        }
+    ]
+}
