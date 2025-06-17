@@ -1,3 +1,5 @@
+var search, links, copy, avatarframe, background, miniprofile, specialprofile, badge, delbadge;
+
 fetch('../data/data.json')
     .then(response => response.json())
     .then(data => {
@@ -18,6 +20,7 @@ function renderCards() {
 
     // Поиск по странице
     const searchContainer = document.querySelector('.search-items');
+    if (!searchContainer || !search) return;
     searchContainer.innerHTML = '';
     search.forEach((item, index) => {
         const card = document.createElement('div');
