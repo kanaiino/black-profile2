@@ -2,31 +2,31 @@
     "search": [
         {
             "title": "Основное",
-            "link": "#"
+            "link": "index.html"
         },
         {
             "title": "Рамка",
-            "link": "#"
+            "link": "#avatarframe"
         },
         {
             "title": "Фоны профиля",
-            "link": "#"
+            "link": "#background"
         },
         {
             "title": "Фоны мини-профиля",
-            "link": "#"
+            "link": "#miniprofile"
         },
         {
             "title": "Особый профиль",
-            "link": "#"
+            "link": "#specialprofile"
         },
         {
             "title": "Значки",
-            "link": "#"
+            "link": "#badge"
         },
         {
             "title": "Другое",
-            "link": "#"
+            "link": "#delbadge"
         }
     ],
     "links": [
